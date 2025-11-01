@@ -1,0 +1,24 @@
+# Core Streamlit
+streamlit>=1.28.0
+
+# LangChain & LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-groq>=0.2.0
+langchain-community>=0.3.0
+
+# Data Models & Type Hints
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# HTTP & Networking
+requests>=2.31.0
+
+# Async Support
+nest-asyncio>=1.5.8
+
+# Ngrok for tunneling (optional - only if you need it for deployment)
+pyngrok>=7.0.0
+
+# Additional useful libraries for news apps
+python-dateutil>=2.8.2
