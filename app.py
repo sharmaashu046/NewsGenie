@@ -16,9 +16,10 @@ nest_asyncio.apply()
 
 # --- Configuration ---
 # IMPORTANT: Replace these with your actual API keys
-GROQ_API_KEY = "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"
-GNEWS_API_KEY = "ea5356372a932f33d835cde847e7c6a2"
-SERPER_API_KEY = "ef93b9a07a6d79d235d1dde91049d06c04bc79d3"
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GNEWS_API_KEY = st.secrets["GNEWS_API_KEY"]
+SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
 
 
 # Validate API keys
